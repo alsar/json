@@ -1,0 +1,18 @@
+{
+    "name": "intriro/json",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "alsar",
+            "email": "ales@intriro.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Intriro\\Json\\": "src/"},
+        "files": [ "bootstrap.php" ]
+    },
+    "require": {
+        "php": "^7.0"
+    }
+}
