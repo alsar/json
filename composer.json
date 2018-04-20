@@ -8,11 +8,17 @@
             "email": "ales@intriro.com"
         }
     ],
-    "autoload": {
-        "psr-4": {"Intriro\\Json\\": "src/"},
-        "files": [ "bootstrap.php" ]
-    },
     "require": {
         "php": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {"Intriro\\Json\\": "src/"},
+        "files": [ "bootstrap.php", "src/functions.php" ]
+    },
+    "autoload-dev": {
+        "psr-4": { "Intriro\\Json\\": "tests/" }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
     }
 }
